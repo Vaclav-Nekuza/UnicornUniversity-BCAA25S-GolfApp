@@ -17,7 +17,7 @@ let schema = {
         name: {type: "string"},
         score: {type: [hole_score_schema]},
     },
-    required: ["id", "score"],
+    required: ["name", "score"],
     additionalProperties: false,
 };
 
