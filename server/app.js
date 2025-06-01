@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const CourseController = require("./server/controller/course");
-const GameController = require("./server/controller/game");
+const CourseController = require("./controller/course");
+const GameController = require("./controller/game");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

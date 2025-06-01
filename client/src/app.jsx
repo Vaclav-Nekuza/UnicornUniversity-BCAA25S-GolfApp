@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
-            <Route path="/gameList" element={<GameList />} />
+            <Route path="/CourseList" element={<CourseList />} />
           </Route>
         </Routes>
       </BrowserRouter>

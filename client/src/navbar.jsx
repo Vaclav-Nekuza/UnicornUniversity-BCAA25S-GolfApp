@@ -15,7 +15,7 @@ function NavBar() {
       collapseOnSelect={true}
     >
       <Container>
-        <Navbar.Brand onClick={() => navigate("")}>FinMan</Navbar.Brand>
+        <Navbar.Brand onClick={() => navigate("")}>Golfer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" size="sm" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -27,11 +27,11 @@ function NavBar() {
               Dashboard
             </Nav.Link>
             <Nav.Link
-              onClick={() => navigate("categoryList")}
-              active={window.location.pathname === "/categoryList"}
-              eventKey="categoryList"
+              onClick={() => navigate("CourseList")}
+              active={window.location.pathname === "/CourseList"}
+              eventKey="CourseList"
             >
-              Categories
+              Courses
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
