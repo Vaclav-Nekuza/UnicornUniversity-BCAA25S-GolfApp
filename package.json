@@ -9,10 +9,15 @@
   "author": "Václav Nekuža",
   "license": "ISC",
   "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
     "ajv": "^8.17.1",
     "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
     "uuid": "^11.1.0"
   },
-  "devDependencies": {},
   "description": ""
 }
